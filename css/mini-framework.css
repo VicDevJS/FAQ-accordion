@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "work sans";
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 25px;
+    background-color: var(--light-pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-off {
+    display: none;
+}
+
+.d-on{
+    display: block;
+}
